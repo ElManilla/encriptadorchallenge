@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+
+
+<head>
+
+  <title>Encriptador</title>
+
+  <link rel="stylesheet" type="text/css" href="style desencriptado.css">
+</head>
+
+<body>
+  <video autoplay loop muted poster="videopastel.mp4" id="video_fondo">
+    <source src="videopastel.mp4" type="video/mp4">
+  </video>
+
+  <h1>Encriptador de texto</h1>
+  <br>
+  <br>
+
+  <label for="texto"><strong>Encriptar / desencriptar:</strong></label>
+  <br>
+  <br>
+
+  <div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <textarea id="texto" name="texto"></textarea>
+  </div>
+  <br>
+  <br>
+
+  <div class="opcion">
+    <br>
+    <br>
+
+    <label for="opcion"><strong>Elige una opción:</strong></label>
+
+    <select id="opcion" name="opcion">
+      <br>
+      <br>
+      <option value="encriptar">Encriptar</option>
+      <option value="desencriptar">Desencriptar</option>
+
+    </select>
+  </div>
+  <br>
+  <br>
+  <button onclick="encriptarDesencriptar()">GO</button>
+  <br>
+  <br>
+  <div class="resultado">
+    <textarea id="resultado" name="resultado"></textarea>
+  </div>
+  <br>
+  <br>
+  <button id="copiar" onclick="copiarResultado()">Copiar</button>
+  <script src="encripta.js"></script>
+
+  <footer>
+    <a href="https://github.com/ElManilla" target="_blank" aria-label="GitHub">
+      <img src="fotosgithublink/github.png" alt="" style="width: 30px;"></a>
+
+    <a href="https://www.linkedin.com/in/marqueslap" target="_blank" aria-label="LinkedIn">
+      <img src="fotosgithublink/linkedin.png" alt="" style="width: 30px;"></a>
+
+
+    <p>Alura Challenge Creado por El Manilla 2023</p>
+  </footer>
+</body>
+
+</html>

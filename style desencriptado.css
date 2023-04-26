@@ -1,0 +1,190 @@
+/* Fuentes */
+body {
+  font-family: monospace;
+}
+
+h1,
+strong {
+  font-family: monospace;
+}
+
+textarea {
+  font-size: xx-large;
+  font-family: monospace;
+  font-weight: 800;
+
+}
+
+strong {
+  font-size: 40px;
+}
+
+select {
+  font-style: oblique;
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+   display: initial;
+  text-align: center;
+  
+}
+
+footer {
+  font-family: monospace;
+}
+
+/* Colores */
+
+body {
+  background-color: #F6E7EB;
+  color: #333333;
+}
+
+h1 {
+
+  color: #d2716a;
+}
+
+strong {
+  padding: auto;
+  border: #d2716a;
+  margin: 24px;
+
+  color: #d2716a;
+}
+
+textarea::selection {
+  background-color: #F6E7EB;
+  color: #d2716a;
+}
+
+textarea::-webkit-scrollbar {
+  width: 8px;
+}
+
+textarea::-webkit-scrollbar-track {
+  background-color: #F8D5A3;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: #7E685A;
+}
+
+#copiar-btn {
+  color: #FFFFFF;
+}
+
+
+#texto {
+  background-color: #7E685A;
+  color: #F6E7EB;
+}
+
+
+
+#resultado {
+  background-color: #7E685A;
+  color: #F6E7EB;
+}
+
+footer {
+
+  color: #d2716a;
+
+}
+
+
+/* Diseño */
+
+
+body {
+  background: url('nombre-del-archivo.mp4') no-repeat center center fixed;
+  background-size: cover;
+  text-align: center;
+
+}
+
+h1 {
+  font-size: 4em;
+  margin: 1em 0 2em;
+  font-weight: bold;
+}
+
+select {
+  padding: 0.5em;
+  border: burlywood;
+  border-radius: 20.5em;
+  background-color: burlywood;
+  outline-color: #d2716a;
+}
+strong{
+margin: 15px;
+}
+label{
+margin: 15px;
+}
+
+select:hover {
+  background-color: #F08080;
+  color: #FFFFFF;
+}
+
+
+#texto {
+  padding: 3em;
+}
+
+#resultado {
+  padding: 3em;
+
+}
+
+button {
+  margin: 15px;
+  background-color: #F8D5A3;
+  color: #7E685A;
+  border: none;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #F08080;
+  color: #FFFFFF;
+}
+
+#copiar-btn {
+  background-color: #F8D5A3;
+  color: #7E685A;
+  border: none;
+  border-radius: 0.5em;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 1em;
+
+
+}
+
+#copiar-btn:hover {
+  background-color: #F08080;
+  color: #FFFFFF;
+}
+
+footer {
+
+  font-size: 19px;
+  margin: 10em 0 9em;
+  font-weight: bold;
+
+}
+
+#video_fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
